@@ -556,8 +556,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     redcarpet (3.6.0)
-    redis (5.0.6)
-      redis-client (>= 0.9.0)
+    redis (4.8.1)
     redis-client (0.12.1)
       connection_pool
     regexp_parser (2.7.0)
@@ -865,7 +864,7 @@ DEPENDENCIES
   rails_safe_tasks (~> 1.0)
   ransack (~> 2.6.0)
   redcarpet
-  redis
+  redis (< 5)
   responders
   rexml
   roadie-rails
@@ -908,4 +907,4 @@ RUBY VERSION
    ruby 3.0.3p157
 
 BUNDLED WITH
-   2.4.3
+   2.4.4

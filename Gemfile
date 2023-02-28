@@ -95,7 +95,7 @@ gem 'rack-rewrite'
 gem 'roadie-rails'
 
 gem 'puma'
-gem 'redis', "< 5"
+gem 'redis', "< 5" # a requirement of Action Cable Redis subscription adapter until Rails 7.0.4.
 gem "hiredis-client"
 gem 'sidekiq'
 gem 'sidekiq-scheduler'
